@@ -1,4 +1,5 @@
 package DICE;
+
 public class DiceRunner {
     public static void main(String[]args){
         Dice d = new Dice();
@@ -8,6 +9,5 @@ public class DiceRunner {
         d.roll();
         n = d.getTotal();
         System.out.println(n);
-
-    }
+}
 }
